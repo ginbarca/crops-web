@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="client/common/template">
+<head>
+<title>Agriculture - Show products website - VietAnhNguyen</title>
+</head>
+<body>
+	<div layout:fragment="content" th:remove="tag">
+		<div class="form-group">
+			<div class="col-sm-10">
+				<div class="alert alert-success">
+					<h3>
+						<strong>Success!</strong> This is homepage. You can test back-end with username
+						<code>admin</code>
+						and password
+						<code>123</code>
+						<br />
+						<br /> 'About', 'Contact us', 'Short codes' is unnecessary! <strong>On github: </strong>
+						<code>
+							<a th:href="@{https://github.com/ginbarca}">https://github.com/ginbarca</a>
+						</code>
+					</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
